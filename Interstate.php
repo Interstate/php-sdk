@@ -226,8 +226,6 @@ class Interstate {
 		$response	= curl_exec( $curl );
 		$code		= curl_getinfo( $curl, CURLINFO_HTTP_CODE );
 
-		var_dump($uri,$params['post'],$response);die;
-
 		if( $code === 200 ) {
 			
 			$response = $this->_parseResponse( $response );
