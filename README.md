@@ -39,7 +39,7 @@ If the user approves your authorization request, they will be sent back to your 
 
 ```php
 $tokens = $instance->getAccessToken( $_GET[ 'code' ] ); // { oauth_token: '..', refresh_token: '..' }
-``
+```
 
 ## Refresh Tokens
 
